@@ -1,0 +1,28 @@
+[general]
+name=Dynamic Multiscale Buffer Generator
+qgisMinimumVersion=3.34
+description=Generates circular and riparian buffers at multiple scales for each collected point, based on the distances of a parameters spreadsheet, clipped by the watershed polygons of each point.
+version=1.0.0
+author=Henrique Ledo Lopes Pinho, Jessica Bassani de Oliveira, Yzel Rondon Suarez
+email=geaaqua@uems.br
+
+about=Processing algorithm version of the script "Dynamic multiscale buffer generator". It automates batch multi-scale buffer creation in an adaptive way, based on the contents of an .xlsx spreadsheet with the columns "Step" and "Meters" ("1 - Buffer Circular" and "6 - Riparian Buffer"). It automatically detects the polygons (watersheds, contribution areas, areas of influence) and the target file for the riparian buffer (line or polygon), matches polygons with points, and separates extrapolated areas. An example spreadsheet can be opened from the help panel of the algorithm.
+
+    Requirements: Python packages pandas and openpyxl (to read the spreadsheet).
+
+    Developed at the Aquatic Environments Studies Laboratory (GEAAQUA), State University of Mato Grosso do Sul (UEMS), Dourados, Brazil, with support from CAPES, CNPq and Fundect.
+
+tracker=https://github.com/sintropikgeo/dynamic-multiscale-buffer-generator/issues
+repository=https://github.com/sintropikgeo/dynamic-multiscale-buffer-generator
+homepage=https://github.com/sintropikgeo/dynamic-multiscale-buffer-generator
+
+changelog=
+    1.0.0 - First release as a QGIS Processing plugin.
+
+tags=buffer,multiscale,riparian,watershed,catchment,landscape,spreadsheet,batch
+category=Analysis
+icon=icon.png
+experimental=False
+deprecated=False
+hasProcessingProvider=yes
+server=False
