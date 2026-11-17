@@ -1,6 +1,7 @@
 [general]
 name=Dynamic Multiscale Buffer Generator
 qgisMinimumVersion=3.34
+qgisMaximumVersion=4.99
 description=Generates circular and riparian buffers at multiple scales for each collected point, based on the distances of a parameters spreadsheet, clipped by the watershed polygons of each point.
 version=1.0.0
 author=Henrique Ledo Lopes Pinho, Jessica Bassani de Oliveira, Yzel Rondon Suarez
