@@ -27,7 +27,7 @@ class DynamicMultiscaleBufferProvider(QgsProcessingProvider):
         return "multiscalebuffer"
 
     def name(self):
-        return "Dynamic Multiscale Buffer Generator"
+        return "BufScale"
 
     def icon(self):
         return QIcon(os.path.join(os.path.dirname(__file__), "icon.png"))

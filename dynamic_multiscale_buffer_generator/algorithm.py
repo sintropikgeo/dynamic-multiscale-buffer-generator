@@ -308,7 +308,7 @@ class DynamicMultiscaleBufferGeneratorAlgorithm(QgsProcessingAlgorithm):
         return "dynamicmultiscalebuffergenerator"
 
     def displayName(self):  # noqa: N802
-        return self.tr("Dynamic multiscale buffer generator")
+        return self.tr("BufScale: Dynamic multiscale buffer generator")
 
     def group(self):
         return self.tr("Multiscale buffers")
@@ -327,6 +327,7 @@ class DynamicMultiscaleBufferGeneratorAlgorithm(QgsProcessingAlgorithm):
     def shortHelpString(self):  # noqa: N802
         link = QUrl.fromLocalFile(example_spreadsheet_copy()).toString()
         return self.tr(
+            "<b>BufScale: Dynamic multiscale buffer generator</b><br><br>"
             "Automates batch multi-scale buffer creation in an adaptive way, "
             "based on the contents of an .xlsx spreadsheet. It automatically "
             "detects the polygons (delimitations) and the target file for "
@@ -358,6 +359,7 @@ class DynamicMultiscaleBufferGeneratorAlgorithm(QgsProcessingAlgorithm):
             "are removed and the results are loaded."
             "<br><br><hr><br>"
             "<b>PORTUGUÊS</b><br><br>"
+            "<b>BufScale: Gerador dinâmico de buffers multiescala</b><br><br>"
             "Automatiza a criação de buffers multiescala em lote, de forma "
             "adaptativa, a partir do conteúdo de uma planilha .xlsx. Detecta "
             "automaticamente os polígonos (delimitações) e o arquivo alvo do "

@@ -1,6 +1,6 @@
-# Dynamic Multiscale Buffer Generator (QGIS plugin)
+# BufScale: Dynamic Multiscale Buffer Generator (QGIS plugin)
 
-Plugin version of the script "Dynamic multiscale buffer generator". The processing is the same as the script: the paths and the `apply_difference` option that were edited at the top of the code are now fields of the algorithm window.
+BufScale (Dynamic multiscale buffer generator) is the plugin version of the script "Dynamic multiscale buffer generator". The processing is the same as the script: the paths and the `apply_difference` option that were edited at the top of the code are now fields of the algorithm window.
 
 Automates batch multi-scale buffer creation in an adaptive way, based on the contents of an .xlsx spreadsheet. It automatically detects the names of delimitations (polygons) and the target file for the riparian buffer (line or polygon), matches polygons with points, identifies the point ID field and separates extrapolated areas.
 
@@ -11,7 +11,7 @@ Automates batch multi-scale buffer creation in an adaptive way, based on the con
 
 ## Usage
 
-`Processing Toolbox > Dynamic Multiscale Buffer Generator > Multiscale buffers > Dynamic multiscale buffer generator`
+`Processing Toolbox > BufScale > Multiscale buffers > BufScale: Dynamic multiscale buffer generator`
 
 | Field | Script variable |
 |---|---|
